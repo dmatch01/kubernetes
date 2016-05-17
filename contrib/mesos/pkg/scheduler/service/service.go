@@ -181,6 +181,7 @@ type SchedulerServer struct {
 	conntrackMax                   int
 	conntrackTCPTimeoutEstablished int
 	useHostPortEndpoints           bool
+//        network-plugin                 string
 
 	executable  string // path to the binary running this service
 	client      *clientset.Clientset
